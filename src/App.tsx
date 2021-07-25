@@ -37,7 +37,7 @@ const App: FC = () => {
       <div className="header">
         <div className="container">
           <input type="text" name="task" value={task} placeholder="Task Name" onChange={handleChange} />
-          <input type="number" name="remainder" value={task} placeholder="Days Remaining" onChange={handleChange} />
+          <input type="number" name="remainder" placeholder="Days Remaining" onChange={handleChange} />
           <button onClick={addTodo}>Add To Do</button>
         </div>
       </div>
